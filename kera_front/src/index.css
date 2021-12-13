@@ -1,0 +1,102 @@
+.image-title{
+  /* background-color: #D3D3D3; */
+  background: linear-gradient(to left, #333 , #eee , #333 );
+}
+
+.titre-h1{
+    color: #353535;
+    text-shadow: 4px 3px 0px #C6C0C0, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #a1dbff;
+    color: #3F31FF;
+    border: 3px solid #a1dbff;
+    
+  }
+  
+.nav-tabs .nav-link{
+    border: 3px solid #a1dbff;
+    margin-right: 2rem;
+  }
+ 
+.box {
+    border:5px solid rgb(0, 196, 186);
+    height: 150px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+  }
+
+  .text{
+    position:relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.position{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.div-imageid{
+  text-align: center;  
+}
+
+/*Component DropFile*/
+.methodSelect{
+  color:rgb(0, 196, 186);
+  font-weight: bold;
+}
+
+/* Component Suivi */
+.div-selected{
+  margin-top: 5px;
+  text-align: center;
+}
+.drop-btn{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-valider{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.frame-strSuivi{
+  border:5px solid rgb(0, 196, 186);
+  height: 150px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+
+
+.bg {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
